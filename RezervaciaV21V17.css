@@ -1,0 +1,358 @@
+/* Widget background color */ 
+
+body,
+.np-body-bg{
+	background-color: #141414 !important;
+    color: #ffffff;
+    align-items: center;
+}
+
+/*
+  Definition of: 
+  
+  1.  header background color 
+  2.  Date input background color
+  3.  Select box background color 
+  4.  Datepicker background color
+*/
+#header{
+	border: none !important;
+	background-color: #141414 !important;
+	font-size: 0px !important;
+} 				/* 1. */
+.np-filed{
+	width: 20vw !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+	text-align: left !important;
+	background-color: #222222 !important;
+	border-radius: 8px !important;
+	padding: 10px !important;
+}		/* 2. */
+.np-select:active, 
+.selectWrapper, 		/* 3. */
+.selectOptions{
+	width: 20vw !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+	text-align: left !important;
+	background-color: #222222 !important;
+	border-radius: 8px !important;
+	padding: 10px !important;
+	align-items: center !important;
+} 		/* 3. */
+.ui-datepicker{
+	width: 20vw !important;
+	text-align: left !important;
+	background-color: #222222 !important;
+	border-radius: 8px !important;
+	padding: 10px !important;
+	align-items: center !important;
+}  		/* 4. */
+.np-select.active
+.np-input{
+	width: 20vw !important;
+	text-align: left !important;
+	background-color: #222222 !important;
+	border-radius: 8px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+
+
+/*
+ 	Base text style
+ 	
+ 	Text color of
+ 	1. Base paragrapth text
+ 	2. Link text color
+ 	3. Alternative times text color (second step
+ 	4. VOP text color
+ 	5. Select box options text color
+*/
+.np-body p{
+	text-align: center !important;
+	font-size: 12px !important;
+    color: #ffffff !important;
+} 								/* 1. */
+.np-link{
+    color: #ffffff !important;
+}								/* 2. */
+.np-options a{
+    color: #ffffff !important;
+}							/* 5. */
+p a.np-link{
+    color: #ffffff !important;
+}								/* 2. */
+.np-checkbox-wrapp a,					/* 4. */
+.np-options li:not(:first-child):before{
+	color: #ffffff !important;
+}
+
+
+/*
+	Link hover style definition
+*/
+a.np-link:hover,
+.np-options a:hover,
+.np-checkbox-wrapp a:hover{
+	color: #ffffff !important; 
+	text-decoration: none !important;
+}
+
+/* Fix for step headings - make them white and centered */
+.np-step-title,
+.np-step-label {
+    color: #ffffff !important;
+}
+
+/* General label styling for all steps */
+label,
+.np-label,
+.np-form-label {
+    color: #ffffff !important;
+}
+
+/*
+	Datepicker & Header text style
+	
+	Text color of:
+	1. Header text color
+	2. Select option text color
+	3. Datepicker's dayOfweek lables text color
+	4. Datepicker's next/prew arrows color
+	5. Datepicker's active days text color
+*/
+#header,											/* 1. */
+.np-select{
+    color: #ffffff !important;
+}												/* 2. */
+.selectOptions li{
+    color: #ffffff !important;
+}									/* 2. */
+.np-filed,
+.ui-datepicker th,									/* 3. */
+.ui-datepicker-prev span,.ui-datepicker-next span, 	/* 4. */
+.ui-datepicker tbody td a{ 							/* 5. */
+	color: #fff !important;
+}
+
+/**
+* 	Color of top selectbox arrow (first step)
+*/
+.np-select:after {
+  border-color: #74616100 transparent transparent transparent; 
+}
+
+/**
+* 	Color of bottom selectbox arrow (first step)
+*/
+.np-select:before{
+  border-color:transparent transparent #74616100 transparent ;
+}
+
+
+/* Select box options separator */
+.selectOptions li{
+	border-bottom:1px solid #141414 !important;
+}
+.selectOptions li:hover {
+	color: #141414 !important;
+	background: #f29c4c !important;
+}
+
+
+/**
+* 	Datepicker style
+*/
+.ui-datepicker-header,
+.ui-datepicker-title{ 
+	color: #ffffff !important; 
+}
+
+/*
+	Datepicker's disabled days
+*/
+.ui-datepicker-unselectable span{
+	color: #665656 !important; 
+}
+.ui-datepicker-calendar .ui-state-active {
+	color: #f29c4c !important;
+}
+.ui-datepicker tbody td a{
+	border-bottom: 1px solid #141414 !important; 
+}
+
+.ui-datepicker-today a{
+	background-color: #f29c4c !important;
+}
+.ui-datepicker-today .ui-state-active{
+	color: #fff !important;
+}
+
+
+/**
+* Widget button style
+*/
+.np-button{
+	background-color: #141414 !important;
+  	border: 2px solid #f29c4c !important;
+  	color: #ffffff !important;
+  	text-align: center !important;
+	padding: 0.5rem 1rem !important;
+  	font-size: 1rem !important;
+  	font-weight: 600 !important;
+  	border-radius: 100px !important;
+  	transition: background 0.3s ease !important;
+    margin-bottom: 60px !important;
+}
+.np-button:hover{
+	background-color: #f29c4c !important;
+  	border-color: #f29c4c !important;
+  	color: #ffffff !important;
+}
+
+/*
+	Style definition of sub-header box (second/third/fourth step)
+*/
+.np-label-box{
+	color: #ffffff !important; /* Changed from transparent to white */
+ 	background-color: #141414 !important;
+  	/* text-align: center !important; */
+}
+
+/*
+	Small triangle situated bottom of sub-header
+	Same color like: .np-label-box{ background-color: }.
+*/
+.np-label-box .np-triangle{
+    border-color: #79d9c300 transparent transparent transparent;
+    _border-color: #79d9c300 #000000 #000000 #000000;
+
+}
+
+/*
+* Style definition of alternatives times. (Second step of booking)  
+*/
+.np-alternatives li{
+    border-color: #141414; 
+    color: #ffffff;
+}
+.np-alternatives li:hover{
+    background-color: #141414; 
+    color: #fff;
+}
+
+/*
+	Inactive input fields in third step.
+*/
+.np-disabled,
+.np-disabled .np-input,
+.np-alternatives .np-disabled, 
+.np-alternatives .np-disabled:hover{
+	border-color: #c7c9c6 !important;
+	color: #c7c9c6 !important;
+}
+
+
+/*
+	Border color of input fields in third step of booking
+*/
+.np-input-wrapp{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+    text-align: left !important;
+	width: 95vw !important;
+	background-color: #222222 !important;
+  	border: none !important;
+    color: #ffffff !important;
+    margin-bottom: 60px !important; /* Add consistent spacing */
+    border-radius: 8px !important; /* Add rounded corners */
+}
+
+
+
+.np-input,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    color: #ffffff !important;
+    text-align: left !important;
+    padding-left: 10px;
+    background-color: #222222 !important;
+    border-radius: 8px !important; /* Add rounded corners to inputs */
+}
+
+/* Fix all text at bottom to be white - More comprehensive selectors */
+.np-footer,
+.np-footer p,
+.np-footer a,
+.np-powered-by,
+.np-text-small,
+small,
+.np-body .np-text,
+.np-text,
+.np-copyright,
+.np-info-text,
+.np-restaurant-name,
+p:last-child,
+div:last-child p,
+span[style*="color"] {
+    color: #ffffff !important;
+	text-align: left !important;
+    padding-left: 10px !important;
+    margin-top: 60px !important; /* Add top margin to bottom text */
+}
+
+
+input, select, textarea, .np-input, .np-select {
+    color: #ffffff !important;
+}
+
+.np-powered-by,
+.powered-by-bookio,
+[class*="powered"],
+[class*="bookio"] {
+    display: none !important;
+}
+
+.np-body p:contains("powered"),
+.np-body p:contains("Powered"),
+.np-body p:contains("bookio"),
+.np-body p:contains("Bookio") {
+    display: none !important;
+}
+
+/*
+	Background color of circle situated in Google Map
+*/
+.np-gmap-ico{
+	background-color: #79d9c3;
+}
+
+.np-text-before{
+	border-top: #edf0ea; 
+}
+
+.iti__flag-container,
+.iti__country-container,
+.iti__selected-country,
+.iti__arrow,
+.iti__country-list,
+.iti {
+    display: none !important;
+}
+
+/* Hide any phone code dropdown functionality */
+.phone-code-selector,
+.country-code,
+.flag-dropdown,
+[class*="flag"],
+[class*="country-code"],
+[class*="iti"] {
+    display: none !important;
+}
